@@ -1,6 +1,5 @@
 * {
     font-family: Roboto;
-
 }
 
 body {
@@ -10,7 +9,6 @@ body {
 .header {
     background-color: #1F2937;
     padding: 0 300px;
-
 }
 
 .hero-primary {
@@ -24,7 +22,6 @@ body {
 .hero-secondary {
     font-size: 18px;
     color: #e5e7eb;
-
 }
 
 ul {
@@ -51,9 +48,9 @@ a {
 }
 
 .main-picture {
-    max-width: 400px;
-    max-height: 200px;
-    flex: 1;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
     object-fit: cover;
     
 }
@@ -71,6 +68,7 @@ a {
     align-items: flex-start;
     padding: 96px 0;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .header-left {
@@ -84,6 +82,49 @@ button {
     border: #3882f6;
     border-radius: 8px;
     padding: 4px 24px;
+  
 }
+
+.mid-top {
+    padding: 0 300px;
+}
+
+.cat1,
+.cat2,
+.cat3,
+.cat4 {
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+
+.mid-top p {
+    max-width: 175px;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
+
+
+
+
 
 
