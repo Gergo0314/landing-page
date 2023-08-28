@@ -8,7 +8,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 0 300px;
+    padding: 32px 300px;
 }
 
 .hero-primary {
@@ -73,6 +73,8 @@ a {
 
 .header-left {
     max-width: 400px;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
@@ -82,11 +84,12 @@ button {
     border: #3882f6;
     border-radius: 8px;
     padding: 4px 24px;
+    align-self: flex-start;
   
 }
 
 .mid-top {
-    padding: 0 300px;
+    padding: 64px 300px;
 }
 
 .cat1,
@@ -105,6 +108,7 @@ button {
     justify-content: space-between;
     gap: 16px;
     flex-wrap: wrap;
+    padding-top: 32px;
 }
 
 h2 {
@@ -123,8 +127,59 @@ h2 {
     text-align: center;
 }
 
+.mid-bottom {
+    padding: 64px 300px;
+    background-color: #e5e7eb;
+}
 
+.quote {
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
 
+h3 {
+    text-align: right;
+    color: #1F2937;
+}
+
+.blue-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 32px 96px;
+}
+
+.blue-container button {
+    align-self: center;
+    border: 2px solid #f9faf8;
+    padding: 4px 32px;
+}
+
+.call {
+    padding: 64px 300px;
+}
+
+.call-left {
+    color: #1F2937;
+}
+
+h4,
+.pet {
+    margin: 0;
+    color: #f9faf8;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.blue-container p {
+    font-weight: lighter;
+}
 
 
 
